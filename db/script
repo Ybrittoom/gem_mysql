@@ -1,0 +1,14 @@
+CREATE TABLE ViolinoAluno.violinoAluno (
+    id INT NOT NULL auto_increment,
+    nome VARCHAR(100) NOT NULL,
+    licao INT NOT NULL,
+    TotalLicao INT NOT NULL,
+    hinos INT NOT NULL,
+    TotalHinos INT NOT NULL,
+    observacao VARCHAR(100) NOT NULL,
+    professor VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;
